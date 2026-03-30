@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    inteiro qnt ,numero[10]
+    escreva("quantos numeros vc ira digitar? ")
+    leia(qnt)
+    para(inteiro i = 0;i<qnt;i++){
+      escreva("digite um numero: ")
+      leia(numero[i])
+    }escreva("\nNUMEROS NEGATIVOS: ")
+
+    para(inteiro i = 0;i<qnt;i++){
+      se(numero[i]<0){
+         
+        escreva("\nnumeros negativos: ",numero[i])
+       
+      }
+    }
+}
+}
