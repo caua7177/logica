@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    inteiro numero[10],soma=0,media=0,qnt=0
+
+    escreva("Digite quantos numeros vc qr: ")
+    leia(qnt)
+     para(inteiro i = 0;i<qnt;i++){
+      escreva("Digite um numero: ")
+      leia(numero[i])
+
+     }
+     escreva("\nVALORES: ")
+
+     para(inteiro i = 0;i<qnt;i++){
+      escreva(numero[i]," ")
+      soma=soma + numero[i]
+      media=soma/qnt
+      
+     }escreva("\nsoma: ",soma,"\nmedia: ",media)
+
+
+}
+}
