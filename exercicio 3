@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+   inteiro idade[10],pessoas, contador
+    cadeia nome[10]
+    real altura[10],soma
+    escreva("Quantas pessoas serao digitadas? ")
+    leia(pessoas)
+
+    para(inteiro i = 0;i<pessoas;i++){
+      escreva("\nDados da ",i +1,"ª a pessoa: ")
+      escreva("\nnome: ")
+      leia(nome[i])
+      escreva("Idade: ")
+      leia(idade[i])
+      escreva("altura: ")
+      leia(altura[i])
+
+    }
+
+    para(inteiro i=0;i<pessoas;i++){
+      soma=soma+altura[i]
+
+    }
+}
+}
